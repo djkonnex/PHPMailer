@@ -9,7 +9,7 @@ function smtpmailer($to, $from, $from_name, $subject, $body)
  
         $mail->SMTPSecure = 'ENTER SMTP PROTOCOL'; 
         $mail->Host = 'ENTER SMTP SERVER HOST NAME';
-        $mail->Port = ENTER SMTP PORT NUMBER;  
+        $mail->Port = 'ENTER SMTP PORT NUMBER';  
         $mail->Username = 'ENTER YOUR MAIL ID';
         $mail->Password = 'ENTER YOUR EMAIL PASSWORD';   
    
